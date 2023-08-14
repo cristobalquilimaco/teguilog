@@ -1,0 +1,79 @@
+.bx {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* Estilos para el menú desplegable */
+.dropdown_menu {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 0;
+  gap: 2rem;
+  background-color: var(--buttoncolor);
+  overflow: hidden;
+  top: 60px;
+  opacity: 0;
+  transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.show-menu {
+  height: 60vh;
+  opacity: 1;
+}
+  
+  .hide-menu {
+    display: none;
+  }
+
+  .header_menu_principal{
+    width: 100%;
+    height: 60px;
+    background-color: var(--navbar-color);
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+  
+
+  }
+
+  .menu_icon{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-left: 1rem;
+margin-right: 1rem;
+overflow: hidden;
+
+  }
+
+  .logo{
+font-size: 25px;
+  }
+.bx-menu{
+ font-size: 30px;
+ cursor: pointer;
+}
+.list_menu{
+  width: auto;
+  height: auto;
+color: var(--text-color);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+transition: background-color 0.3s ease-in-out;
+overflow: hidden;
+font-size: 25px;
+}
+
+.list_menu:hover{
+cursor: pointer;
+width: 150px;
+height: auto;
+background-color: var(--button-color);
+
+}
