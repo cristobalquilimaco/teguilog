@@ -19,7 +19,7 @@ const updateMenu = () => {
             <i className={`bx ${isMenuClick ? 'bx-x' : 'bx-menu'}`} onClick={updateMenu}></i>
       </div>
       <nav className={`dropdown_menu ${isMenuClick ? 'show-menu' : ''}`}>
-        <ul>
+        <ul className='list_menu_principal'>
                 <li className="list_menu">Seccion 1</li>
                 <li className="list_menu">Seccion 2</li>
                 <li className="list_menu">Seccion 3</li>
