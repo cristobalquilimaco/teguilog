@@ -49,18 +49,18 @@ header{
     display: flex ;
     flex-direction: column;
     justify-content: center;
-    color: var(--text-color) ;
+    color: var(--text-color-white) ;
     overflow: hidden;
     transition: box-shadow 0.5s ease-in-out,  background-color 0.5s ease-in-out;
     z-index: 9999;
   }
 
   .header_menu_principal li{
-color: black;
+color: var(--text-color);
   }
 
   .header_menu_principal .bx{
-    color: black;
+    color: var(--text-color-white);
       }
 
 .header_menu_principal.scrolled .bx{
@@ -124,6 +124,10 @@ background-color: var(--button-color);
     align-items: center;
     justify-content: space-between;
   }
+
+  .header_menu_principal li{
+    color: var(--text-color-white);
+      }
 
   .hide-menu {
    display: none;
