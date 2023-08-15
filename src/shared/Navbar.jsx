@@ -20,6 +20,7 @@ const Navbar = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+
   const updateMenu = () => {
     setIsMenuClick(!isMenuClick);
   };

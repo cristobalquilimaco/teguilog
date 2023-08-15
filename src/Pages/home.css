@@ -1,5 +1,9 @@
 .home_principal{
 width: 100%;
 overflow: hidden;
-background-color: red;
+top: 60px;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
