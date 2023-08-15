@@ -7,3 +7,15 @@ display: flex;
 flex-direction: column;
 align-items: center;
 }
+
+.section_banner{
+position: absolute;
+}
+
+
+.img__banner{
+
+height: 100vh;
+width: fit-content;
+position: relative;
+}

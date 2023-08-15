@@ -1,4 +1,4 @@
-import banner from "/public/images/banner.png"
+import banner from "/public/img/banner.jpg"
 
 
 
