@@ -52,6 +52,7 @@ header{
     color: var(--text-color) ;
     overflow: hidden;
     transition: box-shadow 0.5s ease-in-out,  background-color 0.5s ease-in-out;
+    z-index: 9999;
   }
 
   .header_menu_principal li{
