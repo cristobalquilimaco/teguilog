@@ -1,5 +1,7 @@
 .section_banner{
     position: relative;
+    background-size: cover;
+background-position: center;
 }
 .principal_description{
     position: absolute;
@@ -44,8 +46,8 @@ opacity: 1;
 }
 
 .img__banner{
-width: fit-content;
-height: 100%;
+width: 100%;
+
 }
 
 @media screen and (min-width: 768px) {
@@ -65,8 +67,8 @@ height: 100%;
     }
     
     .text_tittle{
-        font-size: 60px;
-        width: 900px;
+        font-size: 70px;
+        width: 1000px;
         font-weight: bold;
         text-justify: initial;
     }
