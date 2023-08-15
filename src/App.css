@@ -5,7 +5,7 @@
   --navbar-color: #620000;
   --background-color: #FFFFFF;
   --buttoncolor: #fdf6f0;
-  --border-color: #E0D663;
+  --border-color: #f7ec7c;
   --button-color: #9DF5B0;
   --text-color: #0E1210;
   --text-color-white: white;
@@ -20,14 +20,11 @@
 /* (Opcional) Las adaptamos al modo oscuro */
 @media (prefers-color-scheme: dark) {
   :root{
-      --negro         : #ececec;
+      --negro: #ececec;
   }
 }
 
 /* (Opcional) Configuramos si un usuario ha activado el modo alto contraste. (WD) */
-@media (prefers-contrast: high){
-    :root{}
-}
 
 /* (Opcional) Desactivamos los animations en el caso de que el usuario haya configurado el modo sin animation */
 @media (prefers-reduced-motion: reduce) {
