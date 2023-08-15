@@ -1,15 +1,31 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import "./styles/navbar.css"
 
 const Navbar = () => {
   const [isMenuClick, setIsMenuClick] = useState(false);
+  const [hasScrolled, setHasScrolled] = useState(false);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setHasScrolled(true);
+      } else {
+        setHasScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   const updateMenu = () => {
     setIsMenuClick(!isMenuClick);
   };
 
   return (
-    <header className="header_menu_principal">
+    <header className={`header_menu_principal ${hasScrolled ? 'scrolled' : ''}`}>
       <div className="menu_icon">
         <h1 className="logo">LOGO</h1>
         
@@ -26,6 +42,7 @@ const Navbar = () => {
         </ul>
       </nav>
     </header>
+
   );
 }
 

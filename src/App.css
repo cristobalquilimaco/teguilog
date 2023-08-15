@@ -1,11 +1,14 @@
+
+
 :root{
   /* Colores */
-  --navbar-color: #A3ACFF;
-  --background-color: #E0BAD9;
-  --buttoncolor: #F5C9A9;
+  --navbar-color: #620000;
+  --background-color: #FFFFFF;
+  --buttoncolor: #fdf6f0;
   --border-color: #E0D663;
   --button-color: #9DF5B0;
   --text-color: #0E1210;
+  --text-color-white: white;
   
   /* Tipografía */
   --tipo-principal   : Helvetica, Arial, sans-serif;
