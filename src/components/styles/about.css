@@ -9,11 +9,17 @@ height: 200px; ;
 display: flex;
 flex-direction: column;
 gap: 2rem;
-margin-top: 1rem;
+
 margin-left: 0.5rem;
 }
 
 .title_about2{
 font-size: 35px;
+font-weight: bold;
+}
+
+.point_tt{
+font-size: 50px;
+color: var(--button-color);
 font-weight: bold;
 }
