@@ -4,8 +4,8 @@ import "./styles/services.css"
 const Services = () => {
   return (
     <div className='principal services'>
-      <article>
-        <p></p>
+      <article className='list_services'>
+        <p>Seccion 1</p>
       <ul>
         <li></li>
         <li></li>
@@ -15,7 +15,7 @@ const Services = () => {
       </ul>
       </article>
       <article>
-        <p></p>
+        <p>Seccion 2</p>
       <ul>
         <li></li>
         <li></li>
@@ -25,7 +25,7 @@ const Services = () => {
       </ul>
       </article>
       <article>
-        <p></p>
+        <p>Seccion 3</p>
       <ul>
         <li></li>
         <li></li>
