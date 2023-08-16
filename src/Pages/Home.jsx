@@ -21,7 +21,6 @@ const Home = () => {
       <WebPlataforms/>
       <Capacity/>
       <Portfolio/>
-      
     </div>
   )
 }
