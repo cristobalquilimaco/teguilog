@@ -7,6 +7,7 @@ import Company from '../components/Company'
 import SuportAndServices from '../components/SuportAndServices'
 import WebPlataforms from '../components/WebPlataforms'
 import Capacity from '../components/Capacity'
+import Portfolio from '../components/Portfolio'
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
       <SuportAndServices/>
       <WebPlataforms/>
       <Capacity/>
+      <Portfolio/>
       
     </div>
   )
