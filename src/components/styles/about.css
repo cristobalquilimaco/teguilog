@@ -26,12 +26,23 @@ font-weight: bold;
 
 @media screen and (min-width: 768px){
 .title_about2{
-font-size: 70px;
+font-size: 60px;
 font-weight: bold;
 }
+
+.description_about{
+
+    
+    margin-left: 2rem;
+    }
 
 .point_tt{
 font-size: 100px;
 
 }
+
+.text_description{
+    font-size: 25px;
+}
+
 }
