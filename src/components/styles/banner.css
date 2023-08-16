@@ -66,6 +66,11 @@ width: 100%;
         
     }
     
+    .img__banner{
+        width: 2800px;
+        height: 700px;
+        }
+
     .text_tittle{
         font-size: 70px;
         width: 1000px;
