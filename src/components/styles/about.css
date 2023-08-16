@@ -2,6 +2,7 @@
 color: var(--text-color-white);
 width: 100%;
 height: 200px; ;
+padding: 0.8rem;
 }
 
 .description_about{
@@ -21,4 +22,16 @@ font-weight: bold;
 font-size: 50px;
 color: var(--navbar-color);
 font-weight: bold;
+}
+
+@media screen and (min-width: 768px){
+.title_about2{
+font-size: 70px;
+font-weight: bold;
+}
+
+.point_tt{
+font-size: 100px;
+
+}
 }
