@@ -3,7 +3,18 @@ import "./styles/services.css"
 
 const Services = () => {
   return (
-    <div>Services</div>
+    <div>
+      <article>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      </article>
+
+    </div>
   )
 }
 
