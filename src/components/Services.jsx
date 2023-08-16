@@ -3,8 +3,29 @@ import "./styles/services.css"
 
 const Services = () => {
   return (
-    <div>
+    <div className='principal services'>
       <article>
+        <p></p>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      </article>
+      <article>
+        <p></p>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      </article>
+      <article>
+        <p></p>
       <ul>
         <li></li>
         <li></li>
