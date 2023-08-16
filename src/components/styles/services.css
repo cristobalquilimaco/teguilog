@@ -5,7 +5,12 @@ flex-wrap: wrap;
 flex-direction: row;
 align-items: center;
 justify-content:space-around ;
-gap: 2rem;
+gap: 3rem;
+font-size: 30px;
+margin-top: 20px;
+}
+
+.tt_section{
+font-weight: bold;
 font-size: 32px;
-margin-top: 100px;
 }
