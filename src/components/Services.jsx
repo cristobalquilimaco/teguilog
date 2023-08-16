@@ -3,35 +3,35 @@ import "./styles/services.css"
 
 const Services = () => {
   return (
-    <div className='principal services'>
+    <div className='principal_services'>
       <article className='list_services'>
-        <p>Seccion 1</p>
+        <p>Seccion 1<span>.</span></p>
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Información 1</li>
+        <li>Información 1</li>
+        <li>Información 1</li>
+        <li>Información 1</li>
+        <li>Información 1</li>
       </ul>
       </article>
-      <article>
-        <p>Seccion 2</p>
+      <article className='list_services'>
+        <p>Seccion 2<span>.</span></p>
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Información 1</li>
+        <li>Información 1</li>
+        <li>Información 1</li>
+        <li>Información 1</li>
+        <li>Información 1</li>
       </ul>
       </article>
-      <article>
-        <p>Seccion 3</p>
+      <article className='list_services'>
+        <p>Seccion 3<span>.</span></p>
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Información 1</li>
+        <li>Información 1</li>
+        <li>Información 1</li>
+        <li>Información 1</li>
+        <li>Información 1</li>
       </ul>
       </article>
 
