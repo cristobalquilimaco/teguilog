@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from './shared/Navbar'
 import { Route, Routes } from 'react-router-dom'
 import Home from './Pages/Home'
+import Footer from './shared/Footer'
 
 function App() {
 
