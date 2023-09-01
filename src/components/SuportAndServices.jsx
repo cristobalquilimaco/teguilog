@@ -3,7 +3,9 @@ import "./styles/suportAndServices.css"
 
 const SuportAndServices = () => {
   return (
-    <div>SuportAndServices</div>
+    <div>
+      <section className='section_support'></section>
+    </div>
   )
 }
 

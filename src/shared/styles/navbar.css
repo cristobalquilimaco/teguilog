@@ -4,7 +4,6 @@
   color: var(--text-color-white);
 }
 
-/* Estilos para el menú desplegable */
 .dropdown_menu {
   position: fixed;
   display: flex;
