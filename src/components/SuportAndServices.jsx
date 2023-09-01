@@ -3,8 +3,37 @@ import "./styles/suportAndServices.css"
 
 const SuportAndServices = () => {
   return (
-    <div>
-      <section className='section_support'></section>
+    <div className='principal_support'>
+      <section className='section_support'>
+        <ul className='list_suport'>
+          <li className='title_suport'>Title</li>
+          <li>Info</li>
+        </ul>
+      </section>
+      <section className='section_support'>
+        <ul className='list_suport'>
+          <li className='title_suport'>Title</li>
+          <li>Info</li>
+        </ul>
+      </section>
+      <section className='section_support'>
+        <ul className='list_suport'>
+          <li className='title_suport'>Title</li>
+          <li>Info</li>
+        </ul>
+      </section>
+      <section className='section_support'>
+        <ul className='list_suport'>
+          <li className='title_suport'>Title</li>
+          <li>Info</li>
+        </ul>
+      </section>
+      <section className='section_support'>
+        <ul className='list_suport'>
+          <li className='title_suport'>Title</li>
+          <li>Info</li>
+        </ul>
+      </section>
     </div>
   )
 }
