@@ -3,8 +3,8 @@ import "./styles/webPlataforms.css"
 
 const WebPlataforms = () => {
   return (
-    <div>
-      <header>
+    <div className='principal_webPlataforms'>
+      <header className='header_web_plataforms'>
         <h2>Industrias y plataformas web</h2>
         <p>Con funciones potentes garantizamos tu seguridad</p>
       </header>
@@ -34,7 +34,6 @@ const WebPlataforms = () => {
         '>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi non, eum cupiditate repudiandae eligendi sint veniam amet unde</p>
         </article>
       </section>
-
     </div>
   )
 }
