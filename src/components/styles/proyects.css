@@ -30,8 +30,9 @@ justify-content: center;
 
 .imgproject{
     width: 350px;
+    transition: transform 0.3s ease-in;
 }
 
 .imgproject:hover{
-
+transform: scale(1.03);
 }
