@@ -16,8 +16,10 @@ width: 380px;
 }
 
 
+
 .bx-check-square{
 color: var(--navbar-color);
+font-size: 50px;
 }
 
 .img_capacity{
@@ -25,9 +27,16 @@ width: 350px;
 border-radius: 20px;
 }
 
-.section_capacity :nth-child(2) {
+.descr_title{
 font-size: 22px;
 font-weight: bold;
 padding: 1rem;
 color: var(--navbar-color);
+
+}
+
+.check_item{
+display: flex;
+align-items: center;
+background-color: red;
 }

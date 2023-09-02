@@ -14,47 +14,77 @@ const Capacity = () => {
 <article className='capacity_services'>
 <section className='section_capacity'>
       <img className='img_capacity' src={images.branding} alt="" />
-      <p>Titulo del servicio</p>
+      <p className='descr_title'>Titulo del servicio</p>
+      <div className='check_item'>
       <i className='bx bx-check-square'></i>
       <p className='des_service'>Descripcion del servicio</p>
+      </div>
+      <div clasName='check_item'>
       <i className='bx bx-check-square'></i>
       <p className='des_service'>Descripcion del servicio</p>
+      </div>
+      <div clasName='check_item'>
       <i className='bx bx-check-square'></i>
       <p className='des_service'>Descripcion del servicio</p>
-      <i className='bx bx-check-square'></i>
-      <p>Descripcion del servicio</p>
+      </div>
+      <div clasName='check_item'>
       <i className='bx bx-check-square'></i>
       <p className='des_service'>Descripcion del servicio</p>
+      </div>
+      <div clasName='check_item'>
+      <i className='bx bx-check-square'></i>
+      <p className='des_service'>Descripcion del servicio</p>
+      </div>
 
     </section>
     <section className='section_capacity'>
       <img className='img_capacity' src={images.branding} alt="" />
-      <p>Titulo del servicio</p>
+      <p className='descr_title'>Titulo del servicio</p>
+      <div clasName='check_item'>
       <i className='bx bx-check-square'></i>
       <p className='des_service'>Descripcion del servicio</p>
+      </div>
+      <div clasName='check_item'>
       <i className='bx bx-check-square'></i>
       <p className='des_service'>Descripcion del servicio</p>
+      </div>
+      <div clasName='check_item'>
       <i className='bx bx-check-square'></i>
       <p className='des_service'>Descripcion del servicio</p>
-      <i className='bx bx-check-square'></i>
-      <p>Descripcion del servicio</p>
+      </div>
+      <div clasName='check_item'>
       <i className='bx bx-check-square'></i>
       <p className='des_service'>Descripcion del servicio</p>
+      </div>
+      <div clasName='check_item'>
+      <i className='bx bx-check-square'></i>
+      <p className='des_service'>Descripcion del servicio</p>
+      </div>
 
     </section>
     <section className='section_capacity'>
       <img className='img_capacity' src={images.branding} alt="" />
-      <p>Titulo del servicio</p>
+      <p className='descr_title'>Titulo del servicio</p>
+      <div clasName='check_item'>
       <i className='bx bx-check-square'></i>
       <p className='des_service'>Descripcion del servicio</p>
+      </div>
+      <div clasName='check_item'>
       <i className='bx bx-check-square'></i>
       <p className='des_service'>Descripcion del servicio</p>
+      </div>
+      <div clasName='check_item'>
       <i className='bx bx-check-square'></i>
       <p className='des_service'>Descripcion del servicio</p>
-      <i className='bx bx-check-square'></i>
-      <p>Descripcion del servicio</p>
+      </div>
+      <div clasName='check_item'>
       <i className='bx bx-check-square'></i>
       <p className='des_service'>Descripcion del servicio</p>
+      </div>
+      <div clasName='check_item'>
+      <i className='bx bx-check-square'></i>
+      <p className='des_service'>Descripcion del servicio</p>
+      </div>
 
     </section>
 </article>
