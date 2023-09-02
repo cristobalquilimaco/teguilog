@@ -1,6 +1,9 @@
 .capacity_services{
 display: flex;
-flex-wrap:wrap ;
+flex-wrap:wrap;
+align-items: center;
+justify-content: center;
+gap: 2rem;
 }
 
 .section_capacity{
@@ -15,4 +18,9 @@ width: 380px;
 
 .bx-check-square{
 color: var(--navbar-color);
+}
+
+.img_capacity{
+width: 350px;
+border-radius: 20px;
 }
