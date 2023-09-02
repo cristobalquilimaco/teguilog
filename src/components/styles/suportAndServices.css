@@ -19,3 +19,11 @@ font-size: 22px;
 color: var(--navbar-color);
 }
 
+@media screen and (min-width: 768px){
+
+.principal_support{
+
+gap: 5rem;
+}
+
+}

@@ -3,7 +3,20 @@ import "./styles/webPlataforms.css"
 
 const WebPlataforms = () => {
   return (
-    <div>WebPlataforms</div>
+    <div>
+      <header>
+        <h2></h2>
+        <p></p>
+      </header>
+      <section>
+      <article>
+        <i class='bx bx-check'></i>
+        <p></p>
+        <p></p>
+        </article>
+      </section>
+
+    </div>
   )
 }
 
