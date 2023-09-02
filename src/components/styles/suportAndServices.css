@@ -4,7 +4,7 @@ flex-wrap: wrap;
 align-items: center;
 justify-content: center;
 width: 100%;
-gap: 2rem;
+gap: 1.5rem;
 margin-top: 3rem;
 }
 
@@ -12,9 +12,10 @@ margin-top: 3rem;
 color: var(--text-color-white);
 display: flex;
 flex-direction: column;
-font-size: 25px;
+font-size: 22px;
 }
 
 .title_text{
-color: red;
+color: var(--navbar-color);
 }
+
