@@ -1,3 +1,17 @@
 .principal_webPlataforms{
 width: 100%;
+background-color: var(--background-color);
+}
+
+.header_web_plataforms{
+
+}
+
+.bx-check{
+background-color: var(--navbar-color);
+width: 50px;
+border-radius: 50%;
+aspect-ratio: 1;
+display: flex;
+
 }
