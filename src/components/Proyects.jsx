@@ -16,6 +16,13 @@ const Proyects = () => {
         descripcion: 'Descripción del proyecto 2',
         imagen: images.proyects1, 
       },
+
+      {
+        id: 2,
+        nombre: 'Proyecto 2',
+        descripcion: 'Descripción del proyecto 2',
+        imagen: images.proyects1, 
+      },
  
     ]);
  
@@ -26,12 +33,14 @@ const Proyects = () => {
 
     return (
       <div className='principal_proyects'>
-        <h2>Nuestros Proyectos</h2>
-        <ul>
+        <h2 className='sectionproyects'>Nuestros Proyectos</h2>
+        <ul className='list_proyects'>
           {proyectos.map((proyecto) => (
-            <li key={proyecto.id}>
-              <strong>{proyecto.nombre}</strong>: {proyecto.descripcion}
-              <img src={proyecto.imagen} alt={proyecto.nombre} />
+            <li className='pp_tt' key={proyecto.id}>
+                <div>
+                <p className='pp_tt2'>{proyecto.nombre}</p>: {proyecto.descripcion}
+              <img className='imgproject' src={proyecto.imagen} alt={proyecto.nombre} />
+                </div>
             </li>
           ))}
         </ul>

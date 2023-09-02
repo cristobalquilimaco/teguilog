@@ -1,0 +1,37 @@
+.sectionproyects{
+color: var(--background-color);
+font-size: 30px;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.list_proyects{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+gap: 0.5rem;
+}
+
+.pp_tt2{
+text-align: center;
+
+}
+
+.pp_tt{
+color: var(--background-color);
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.imgproject{
+    width: 350px;
+}
+
+.imgproject:hover{
+
+}
