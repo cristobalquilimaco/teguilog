@@ -5,8 +5,8 @@ const WebPlataforms = () => {
   return (
     <div>
       <header>
-        <h2></h2>
-        <p></p>
+        <h2>Industrias y plataformas web</h2>
+        <p>Con funciones potentes garantizamos tu seguridad</p>
       </header>
       <section>
       <article>
