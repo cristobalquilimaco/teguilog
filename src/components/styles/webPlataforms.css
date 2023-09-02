@@ -1,11 +1,23 @@
 .principal_webPlataforms{
 width: 100%;
 background-color: var(--background-color);
+
 }
 
 .header_web_plataforms{
-
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-top: 30px;
+margin-bottom: 30px;
+gap: 0.5rem;
 }
+
+.info_webplataforms{
+font-size: 25px;
+}
+
 
 .bx-check{
 background-color: var(--navbar-color);
@@ -17,3 +29,4 @@ align-items: center;
 justify-items: center;
 font-size: 48px;
 }
+

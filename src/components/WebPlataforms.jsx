@@ -4,10 +4,10 @@ import "./styles/webPlataforms.css"
 const WebPlataforms = () => {
   return (
     <div className='principal_webPlataforms'>
-      <header className='header_web_plataforms'>
-        <h2>Industrias y plataformas web</h2>
+      <div className='header_web_plataforms'>
+        <p className='info_webplataforms'>Industrias y plataformas web</p>
         <p>Con funciones potentes garantizamos tu seguridad</p>
-      </header>
+      </div>
       <section>
       <article className='article_plataforms'>
         <i className='bx bx-check'></i>
