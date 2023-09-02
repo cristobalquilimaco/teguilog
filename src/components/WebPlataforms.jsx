@@ -10,9 +10,9 @@ const WebPlataforms = () => {
       </header>
       <section>
       <article>
-        <i class='bx bx-check'></i>
-        <p></p>
-        <p></p>
+        <i className='bx bx-check'></i>
+        <p>Guia de marca</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi non, eum cupiditate repudiandae eligendi sint veniam amet unde</p>
         </article>
       </section>
 
