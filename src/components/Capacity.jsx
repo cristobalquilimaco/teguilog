@@ -14,7 +14,16 @@ const Capacity = () => {
       <img src={images.branding} alt="" />
       <p>Titulo del servicio</p>
       <i className='bx bx-check-square'></i>
+      <p className='des_service'>Descripcion del servicio</p>
+      <i className='bx bx-check-square'></i>
+      <p className='des_service'>Descripcion del servicio</p>
+      <i className='bx bx-check-square'></i>
+      <p className='des_service'>Descripcion del servicio</p>
+      <i className='bx bx-check-square'></i>
       <p>Descripcion del servicio</p>
+      <i className='bx bx-check-square'></i>
+      <p className='des_service'>Descripcion del servicio</p>
+
     </section>
     </div>
   )
