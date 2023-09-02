@@ -11,8 +11,8 @@ const Capacity = () => {
       </h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos atque, corrupti maiores perferendis magnam impedit dicta assumend.</p>
       </div>
-
-    <section className='section_capacity'>
+<article className='capacity_services'>
+<section className='section_capacity'>
       <img className='img_capacity' src={images.branding} alt="" />
       <p>Titulo del servicio</p>
       <i className='bx bx-check-square'></i>
@@ -27,6 +27,8 @@ const Capacity = () => {
       <p className='des_service'>Descripcion del servicio</p>
 
     </section>
+</article>
+
     </div>
   )
 }

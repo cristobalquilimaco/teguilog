@@ -1,4 +1,11 @@
-
+.section_capacity{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: var(--background-color);
+width: 380px;
+}
 
 
 .bx-check-square{
