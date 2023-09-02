@@ -38,5 +38,6 @@ color: var(--navbar-color);
 .check_item{
 display: flex;
 align-items: center;
-background-color: red;
+font-size: 17px;
+gap: 0.5rem;
 }
