@@ -27,6 +27,36 @@ const Capacity = () => {
       <p className='des_service'>Descripcion del servicio</p>
 
     </section>
+    <section className='section_capacity'>
+      <img className='img_capacity' src={images.branding} alt="" />
+      <p>Titulo del servicio</p>
+      <i className='bx bx-check-square'></i>
+      <p className='des_service'>Descripcion del servicio</p>
+      <i className='bx bx-check-square'></i>
+      <p className='des_service'>Descripcion del servicio</p>
+      <i className='bx bx-check-square'></i>
+      <p className='des_service'>Descripcion del servicio</p>
+      <i className='bx bx-check-square'></i>
+      <p>Descripcion del servicio</p>
+      <i className='bx bx-check-square'></i>
+      <p className='des_service'>Descripcion del servicio</p>
+
+    </section>
+    <section className='section_capacity'>
+      <img className='img_capacity' src={images.branding} alt="" />
+      <p>Titulo del servicio</p>
+      <i className='bx bx-check-square'></i>
+      <p className='des_service'>Descripcion del servicio</p>
+      <i className='bx bx-check-square'></i>
+      <p className='des_service'>Descripcion del servicio</p>
+      <i className='bx bx-check-square'></i>
+      <p className='des_service'>Descripcion del servicio</p>
+      <i className='bx bx-check-square'></i>
+      <p>Descripcion del servicio</p>
+      <i className='bx bx-check-square'></i>
+      <p className='des_service'>Descripcion del servicio</p>
+
+    </section>
 </article>
 
     </div>
