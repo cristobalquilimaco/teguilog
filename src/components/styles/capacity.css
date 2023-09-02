@@ -24,3 +24,10 @@ color: var(--navbar-color);
 width: 350px;
 border-radius: 20px;
 }
+
+.section_capacity :nth-child(2) {
+font-size: 22px;
+font-weight: bold;
+padding: 1rem;
+color: var(--navbar-color);
+}
