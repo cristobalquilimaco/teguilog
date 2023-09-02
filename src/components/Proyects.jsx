@@ -8,13 +8,13 @@ const Proyects = () => {
         id: 1,
         nombre: 'Proyecto 1',
         descripcion: 'Descripción del proyecto 1',
-        imagen: 'ruta/a/la/imagen1.jpg', 
+        imagen: images.proyects1, 
       },
       {
         id: 2,
         nombre: 'Proyecto 2',
         descripcion: 'Descripción del proyecto 2',
-        imagen: 'ruta/a/la/imagen2.jpg', 
+        imagen: images.proyects1, 
       },
  
     ]);
@@ -25,8 +25,8 @@ const Proyects = () => {
   
 
     return (
-      <div>
-        <h2>Mis Proyectos</h2>
+      <div className='principal_proyects'>
+        <h2>Nuestros Proyectos</h2>
         <ul>
           {proyectos.map((proyecto) => (
             <li key={proyecto.id}>
