@@ -5,12 +5,14 @@ import images from "../images/images"
 const Capacity = () => {
   return (
     <div className='principal_capacity'>
+      <div className='section_pp_cap'>
       <h3>
         Capacity
       </h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos atque, corrupti maiores perferendis magnam impedit dicta assumend.</p>
+      </div>
 
-    <section>
+    <section className='section_capacity'>
       <img src={images.branding} alt="" />
       <p>Titulo del servicio</p>
       <i className='bx bx-check-square'></i>
