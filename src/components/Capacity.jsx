@@ -13,7 +13,7 @@ const Capacity = () => {
       </div>
 
     <section className='section_capacity'>
-      <img src={images.branding} alt="" />
+      <img className='img_capacity' src={images.branding} alt="" />
       <p>Titulo del servicio</p>
       <i className='bx bx-check-square'></i>
       <p className='des_service'>Descripcion del servicio</p>
