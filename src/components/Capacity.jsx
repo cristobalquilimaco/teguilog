@@ -3,7 +3,11 @@ import "./styles/capacity.css"
 
 const Capacity = () => {
   return (
-    <div>Capacity</div>
+    <div className='principal_capacity'>
+      <h3>
+
+      </h3>
+    </div>
   )
 }
 
