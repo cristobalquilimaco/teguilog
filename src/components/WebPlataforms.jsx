@@ -6,32 +6,36 @@ const WebPlataforms = () => {
     <div className='principal_webPlataforms'>
       <div className='header_web_plataforms'>
         <p className='info_webplataforms'>Industrias y plataformas web</p>
-        <p>Con funciones potentes garantizamos tu seguridad</p>
+        <p className='desc_webplataform'>Con funciones potentes garantizamos tu seguridad</p>
       </div>
-      <section>
+      <section className='seccion_web_plataforms'>
       <article className='article_plataforms'>
         <i className='bx bx-check'></i>
-        <p className='title_info_web'>Guia de marca</p>
-        <p className='title_pp_web
-        '>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi non, eum cupiditate repudiandae eligendi sint veniam amet unde</p>
+        <div className='tt_webpl'>
+        <p className='title_pp_web1'>Guia de marca</p>
+        <p className='title_pp_web'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi non, eum cupiditate repudiandae eligendi sint veniam amet unde</p>
+        </div>
         </article>
         <article className='article_plataforms'>
         <i className='bx bx-check'></i>
-        <p className='title_info_web'>Guia de marca</p>
-        <p className='title_pp_web
-        '>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi non, eum cupiditate repudiandae eligendi sint veniam amet unde</p>
+        <div className='tt_webpl'>
+        <p className='title_pp_web1'>Guia de marca</p>
+        <p className='title_pp_web'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi non, eum cupiditate repudiandae eligendi sint veniam amet unde</p>
+        </div>
         </article>
         <article className='article_plataforms'>
         <i className='bx bx-check'></i>
-        <p className='title_info_web'>Guia de marca</p>
-        <p className='title_pp_web
-        '>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi non, eum cupiditate repudiandae eligendi sint veniam amet unde</p>
+        <div className='tt_webpl'>
+        <p className='title_pp_web1'>Guia de marca</p>
+        <p className='title_pp_web'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi non, eum cupiditate repudiandae eligendi sint veniam amet unde</p>
+        </div>
         </article>
         <article className='article_plataforms'>
         <i className='bx bx-check'></i>
-        <p className='title_info_web'>Guia de marca</p>
-        <p className='title_pp_web
-        '>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi non, eum cupiditate repudiandae eligendi sint veniam amet unde</p>
+        <div className='tt_webpl'>
+        <p className='title_pp_web1'>Guia de marca</p>
+        <p className='title_pp_web'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi non, eum cupiditate repudiandae eligendi sint veniam amet unde</p>
+        </div>
         </article>
       </section>
     </div>

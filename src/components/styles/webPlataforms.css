@@ -1,7 +1,7 @@
 .principal_webPlataforms{
 width: 100%;
 background-color: var(--background-color);
-
+padding: 2rem;
 }
 
 .header_web_plataforms{
@@ -9,19 +9,30 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-margin-top: 30px;
+
 margin-bottom: 30px;
 gap: 0.5rem;
 }
 
 .info_webplataforms{
 font-size: 25px;
+font-weight: bold;
+}
+
+.seccion_web_plataforms{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+gap: 2rem;
 }
 
 
 .bx-check{
 background-color: var(--navbar-color);
 width: 50px;
+height: 50px;
 border-radius: 50%;
 aspect-ratio: 1;
 display: flex;
@@ -30,3 +41,19 @@ justify-items: center;
 font-size: 48px;
 }
 
+.tt_webpl{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.article_plataforms {
+display: flex;
+width: 300px;
+gap: 1rem;
+}
+
+.title_pp_web1{
+    font-size: 18px;
+font-weight: bold;
+}
