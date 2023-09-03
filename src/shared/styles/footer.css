@@ -1,8 +1,17 @@
 .principal_footer{
-    margin-top: 100px;
-color: var(--background-color);
+margin-top: 100px;
 width: 100%;
 background: rgb(20,0,36);
 background: linear-gradient(90deg, rgba(20,0,36,1) 31%, rgba(6,6,27,1) 62%, rgba(2,19,19,1) 100%);
 }
 
+.contact_footer{
+background-color: var(--background-color);
+margin: 1rem;
+display: flex;
+flex-wrap: wrap;
+}
+
+.contact_inf{
+    font-size: 20px;
+}
