@@ -13,7 +13,7 @@ const Footer = () => {
         </div>
         <div>
           <p></p>
-          <div>
+          <div className='input_and_btn'>
             <input type="email" />
             <button className='button_suscrib'>Enviar</button>
           </div>
