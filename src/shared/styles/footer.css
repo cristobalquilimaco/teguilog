@@ -12,6 +12,15 @@ display: flex;
 flex-wrap: wrap;
 }
 
+.text_info_footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.2rem;
+}
+
 .contact_inf{
     font-size: 20px;
+    
 }
