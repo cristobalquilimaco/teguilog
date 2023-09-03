@@ -11,7 +11,13 @@ const Footer = () => {
             
             deserunt id eveniet ipsa fugiat! Illum facere minima culpa maiores recusandae fugit vel expedita saepe. Autem.</p>
         </div>
-        <div></div>
+        <div>
+          <p></p>
+          <div>
+            <input type="email" />
+            <button className='button_suscrib'>Enviar</button>
+          </div>
+        </div>
       </section>
     </div>
   )
