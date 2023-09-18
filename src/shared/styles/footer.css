@@ -17,10 +17,14 @@ flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
-    padding: 0.2rem;
+    padding: 0.3rem;
 }
 
 .contact_inf{
     font-size: 20px;
     
+}
+
+.input_and_btn{
+
 }
