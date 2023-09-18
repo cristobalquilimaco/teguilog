@@ -72,6 +72,27 @@ align-items: center;
 
 
 @media screen and (min-width: 768px){
+
+    .contact_footer{
+        background-color: var(--background-color);
+        margin: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 1rem;
+        padding: 2rem 0rem 2rem 0rem;
+        }
+
+        .text_info_footer{
+        width: 600px;
+        }
+
+        .contact_inf{
+        font-size: 30px;
+        }
+
+        
+
 .bx {
     display: block;
 }
