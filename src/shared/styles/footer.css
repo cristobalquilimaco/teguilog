@@ -12,24 +12,33 @@ display: flex;
 flex-wrap: wrap;
 align-items: center;
 justify-content: center;
+gap: 1rem;
 }
 
 .text_info_footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1rem;
-    padding: 0.3rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 1rem;
+padding: 0.3rem;
 }
 
 .contact_inf{
 font-size: 22px;
 font-weight: bold;
 }
+
+.infor_btn_input{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 .input_and_btn{
 display: flex;
 justify-content: center;
 }
+
 
 #email_input{
 border: 1px solid rgb(95, 92, 92);
@@ -41,3 +50,8 @@ width: 280px;
 background-color: salmon; 
 padding: 0.4rem 1.2rem 0.4rem 1.2rem;
 }
+
+.button_suscrib:hover{
+    background-color: rgb(196, 85, 73); 
+    cursor: pointer;
+    }
