@@ -27,7 +27,6 @@
   justify-content: center;
   gap: 2rem;
 
-
 }
 
 .show-menu {
@@ -72,9 +71,6 @@ color: var(--text-color-white);
     color: var(--text-color-white);
   }
 
-  .header_menu_principal.scrolled li{
-    color: var(--text-color-white);
-  }
 
   .menu_icon{
 display: flex;
@@ -166,6 +162,7 @@ display: none;
     justify-content: center;
     margin: 0;
     padding: 0;
+
   }
 
   .list_menu {
@@ -173,11 +170,11 @@ display: none;
     align-items: center;
     justify-content: center;
     width: 150px;
-
   }
 
   .list_menu {
-color: var(--text-color-white);
+color: var(--button-color);
+
   }
   
 }

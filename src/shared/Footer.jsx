@@ -25,6 +25,7 @@ const Footer = () => {
       <i className='bx bxl-instagram-alt' ></i><span className='social_tt'>Instagram</span>
       <i className='bx bxl-twitter'></i><span className='social_tt'>Twitter</span>
       </div>
+      <p className='copyright'>Teguilog 2023 todos los derechos reservados</p>
     </div>
   )
 }
