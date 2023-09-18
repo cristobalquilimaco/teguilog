@@ -17,7 +17,11 @@
   top: 60px;
   opacity: 0;
   transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
 
+.dropdown_menu.show-menu {
+  height: 60vh;
+  opacity: 1;
 }
 
 .list_menu_principal {
@@ -71,6 +75,9 @@ color: var(--text-color-white);
     color: var(--text-color-white);
   }
 
+  .header_menu_principal.scrolled li{
+    color: var(--text-color-white);
+  }
 
   .menu_icon{
 display: flex;
@@ -85,10 +92,11 @@ overflow: hidden;
   .logo{
 font-size: 25px;
   }
-.bx-menu{
- font-size: 30px;
- cursor: pointer;
-}
+  .bx-menu {
+    font-size: 30px;
+    cursor: pointer;
+    color: var(--text-color-white);
+  }
 .list_menu{
   width: auto;
   height: auto;
@@ -120,16 +128,25 @@ background-color: var(--button-color);
     justify-content: space-between;
   }
 
+  .show-menu{
+    display: block;
+  }
+
+  .menu_icon .bx-x {
+    display: none;
+  }
+  .menu_icon .bx-menu {
+    display: none;
+  }
+
   .header_menu_principal li{
     color: var(--text-color-white);
+  
       }
 
   .hide-menu {
    display: none;
-  }
-
-  .bx{
-display: none;
+   
   }
 
   .menu_icon {
@@ -151,18 +168,17 @@ display: none;
     opacity: 1;
     transform: none;
     transition: none;
+    
   }
  
 
   .list_menu_principal {
     display: flex;
-    width: 100%;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     margin: 0;
     padding: 0;
-
   }
 
   .list_menu {
@@ -170,11 +186,7 @@ display: none;
     align-items: center;
     justify-content: center;
     width: 150px;
-  }
-
-  .list_menu {
-color: var(--button-color);
-
+  
   }
   
 }
