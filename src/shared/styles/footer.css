@@ -10,6 +10,8 @@ background-color: var(--background-color);
 margin: 1rem;
 display: flex;
 flex-wrap: wrap;
+align-items: center;
+justify-content: center;
 }
 
 .text_info_footer{
@@ -21,13 +23,19 @@ flex-wrap: wrap;
 }
 
 .contact_inf{
-    font-size: 20px;
-    
+font-size: 22px;
+font-weight: bold;
 }
-
 .input_and_btn{
 display: flex;
+justify-content: center;
 }
+
+#email_input{
+border: 1px solid rgb(95, 92, 92);
+width: 280px;
+}
+
 
 .button_suscrib{
 background-color: salmon; 

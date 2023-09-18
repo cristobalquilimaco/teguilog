@@ -14,7 +14,7 @@ const Footer = () => {
         <div>
           <p></p>
           <div className='input_and_btn'>
-            <input type="email" />
+            <input id='email_input' type="email" placeholder='Tu email' />
             <button className='button_suscrib'>Enviar</button>
           </div>
         </div>
