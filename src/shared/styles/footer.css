@@ -30,5 +30,6 @@ display: flex;
 }
 
 .button_suscrib{
-background-color: salmon;    
+background-color: salmon; 
+padding: 0.4rem 1.2rem 0.4rem 1.2rem;
 }
