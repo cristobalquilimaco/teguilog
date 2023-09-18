@@ -13,6 +13,7 @@ const Footer = () => {
         </div>
         <div className='infor_btn_input'>
           <p>¿Quieres recibir noticias y nuevas promociones?</p>
+          <p>Dejanos tu email para que recibas nuevas noticias promociones en informacion importante acerca del marketing digital</p>
           <div className='input_and_btn'>
             <input id='email_input' type="email" placeholder='Tu email' />
             <button className='button_suscrib'>Enviar</button>
