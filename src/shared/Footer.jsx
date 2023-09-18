@@ -19,6 +19,11 @@ const Footer = () => {
           </div>
         </div>
       </section>
+      <div className='social_ico'>
+      <i className='bx bxl-facebook-square'></i><span className='social_tt'>Facebook</span>
+      <i className='bx bxl-instagram-alt' ></i><span className='social_tt'>Instagram</span>
+      <i className='bx bxl-twitter'></i><span className='social_tt'>Twitter</span>
+      </div>
     </div>
   )
 }
