@@ -26,5 +26,9 @@ flex-wrap: wrap;
 }
 
 .input_and_btn{
+display: flex;
+}
 
+.button_suscrib{
+background-color: salmon;    
 }
