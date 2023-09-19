@@ -44,13 +44,11 @@ const Navbar = () => {
           <li className={`list_menu ${isServiciosOpen ? 'servicios-open' : ''}`} onClick={toggleServicios}>
             {isServiciosOpen ? 'Servicios ✕' : 'Servicios ▼'}
           </li>
-          {isServiciosOpen && (
-            <ul className="list_submenu">
-              <li className="list_menu">Desarrollo web</li>
-              <li className="list_menu">Marketing Digital</li>
-              <li className="list_menu">SEO y SEM</li>
-            </ul>
-          )}
+          <ul className={`list_submenu ${isServiciosOpen ? 'open' : ''}`}>
+            <li className="list_menu1"><i className='bx bx-c bx-laptop'></i>Desarrollo web</li>
+            <li className="list_menu1"><i className='bx bx-c bx-line-chart'></i>Marketing Digital</li>
+            <li className="list_menu1"><i className='bx bx-c bx-search-alt-2' ></i>SEO y SEM</li>
+          </ul>
           <li className="list_menu">Acerca de</li>
           <li className="list_menu">Contactame</li>
           <li className="list_menu">Blog</li>

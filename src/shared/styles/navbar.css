@@ -1,7 +1,18 @@
+:root{
+  --text-color-rgb: 0, 0, 0;
+}
+
 .bx {
   font-size: 2rem;
   cursor: pointer;
   color: var(--text-color-white);
+}
+
+.bx-c{
+  font-size: 22px;
+  margin: 0.5rem;
+  color: red;
+
 }
 
 .dropdown_menu {
@@ -24,18 +35,21 @@
   opacity: 1;
 }
 
-.list_menu_principal {
+.list_menu_principal{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+}
 
+.list_menu_principal li{
+margin: 1rem;
 }
 
 .show-menu {
   height: 60vh;
   opacity: 1;
+  display: flex;
 }
   
 header{
@@ -111,11 +125,35 @@ font-size: 20px;
 }
 
 .list_menu:hover{
-cursor: pointer;
-width: 150px;
-height: auto;
-background-color: var(--button-color);
+  cursor: pointer;
+  width: 550px;
+  background-color: var(--text-color-white);
+  background-image: linear-gradient(to bottom, transparent, rgba(var(--text-color-rgb), 0.1));
+  height: 50px;
 }
+
+.list_submenu{
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+.list_submenu.open {
+  max-height: 180px; 
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.075);
+  color: var(--text-color-white);
+  width: 400px;
+}
+
+.list_menu1{
+  width: 200px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  }
+
 
 /* ---------------MEDIA QUERTY--------------- */
 
@@ -181,22 +219,74 @@ background-color: var(--button-color);
     padding: 0;
   }
 
+  .list_menu_principal li{
+    margin: 0rem;
+    }
+
   .list_menu {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 150px;
-  
+  }
+
+  .list_menu:hover{
+    cursor: pointer;
+    width: 150px;
+    height: auto;
+    background-color: var(--transparent-color);
+    background-image: linear-gradient(to bottom, transparent, transparent 40%, var(--purple-color));
+    height: 60px;
   }
 
   .list_submenu{
 position: absolute;
-top: 55%;
-left: 38%;
+top: 54.8%;
+left: 37.5%;
 display: flex;
 flex-direction: column;
-gap: 1.2rem;
+align-items: center;
+justify-content: center;
+gap: 1.5rem;
+width: 240px;
+height: 180px;
+max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
 }
+
+
+.list_submenu.open {
+  max-height: 180px; 
+  width: 240px;
+ background-color: var(--text-color-transparent);
+
+}
+
+.bx-c{
+  font-size: 22px;
+  margin: 0.5rem;
+
+}
+
+.list_menu1{
+width: 240px;
+height: 30px;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+
+.list_menu1:hover{
+  cursor: pointer;
+  background-image: linear-gradient(to bottom, transparent, transparent 5%, var(--purple-color));
+    height: 30px;
+
+}
+
+
+
+
 
   .header_menu_principal.scrolled li{
     color: var(--text-color-white);

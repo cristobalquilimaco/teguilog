@@ -11,7 +11,10 @@ const Banner = () => {
             <h2 className='description_page'>Expertos en marketing digital, estrategias efectivas para tu éxito en línea. Maximiza tu presencia web con nosotros.</h2>
             <button className='btn btn_more'>Cónoce más</button>
             </article>
+            <div>
             <img className='img__banner' src={images.banner} alt="" />
+            </div>
+            
         </section>
     </div>
   )
