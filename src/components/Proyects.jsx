@@ -1,8 +1,21 @@
 import React, { useState } from 'react'
 import "./styles/proyects.css"
 import projectsData from '../utils/projects';
+import Modal from './Modal';
 
 const Proyects = () => {
+const [projectsList, setProjectsList] = useState([])
+const [selectedProject, setSelectedProject] = useState(null);
+
+const agregarProjects = (proyecto) => {
+  setProjectsList([...projectsList, proyecto]);
+};
+
+const openModal = (proyecto) => {
+  setSelectedProject(proyecto);
+}
+
+
 
     return (
       <div className='principal_proyects'>

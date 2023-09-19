@@ -5,7 +5,8 @@ const Modal = ({project, onClose}) => {
     <div className='project-modal'>
       <div className='modal-content'>
         <h3>{project.nombre}</h3>
-        <img src={project.imagen} alt="" />
+        <img src={project.imagen} alt={project.nombre} />
+        <button onClick={onClose}>Cerrar</button>
       </div>
     </div>
   )
