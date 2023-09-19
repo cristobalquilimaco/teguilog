@@ -188,6 +188,19 @@ background-color: var(--button-color);
     width: 150px;
   
   }
+
+  .list_submenu{
+position: absolute;
+top: 55%;
+left: 38%;
+display: flex;
+flex-direction: column;
+gap: 1.2rem;
+}
+
+  .header_menu_principal.scrolled li{
+    color: var(--text-color-white);
+  }
   
 }
 
