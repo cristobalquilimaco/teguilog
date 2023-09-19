@@ -15,7 +15,9 @@ const openModal = (proyecto) => {
   setSelectedProject(proyecto);
 }
 
-
+const closeModal = () => {
+  setSelectedProject(null)
+}
 
     return (
       <div className='principal_proyects'>
