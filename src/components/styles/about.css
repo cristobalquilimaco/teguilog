@@ -14,7 +14,7 @@ margin-left: 0.5rem;
 }
 
 .title_about2{
-font-size: 35px;
+font-size: 28px;
 font-weight: bold;
 }
 
@@ -26,7 +26,7 @@ font-weight: bold;
 
 @media screen and (min-width: 768px){
 .title_about2{
-font-size: 60px;
+font-size: 50px;
 font-weight: bold;
 }
 
@@ -42,7 +42,7 @@ font-size: 100px;
 }
 
 .text_description{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 }
