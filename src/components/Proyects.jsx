@@ -26,12 +26,14 @@ const closeModal = () => {
           {projectsData.map((proyecto) => (
             <li className='pp_tt' key={proyecto.id}>
                 <div>
-                <p className='pp_tt2'>{proyecto.nombre}</p> <p>{proyecto.descripcion}</p>
-              <img className='imgproject' src={proyecto.imagen} alt={proyecto.nombre} />
+              <img className='imgproject' src={proyecto.imagen} alt={proyecto.nombre} onClick={() => openModal(proyecto)}/>
                 </div>
             </li>
           ))}
         </ul>
+        {selectedProject && (
+          <Modal project={selectedProject} onClose={closeModal}/>
+        )}
       </div>
     );
   };
