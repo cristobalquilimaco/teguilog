@@ -19,21 +19,21 @@ const WebPlataforms = () => {
         <article className='article_plataforms'>
         <i className='bx bx-check'></i>
         <div className='tt_webpl'>
-        <p className='title_pp_web1'>Guia de marca</p>
+        <p className='title_pp_web1'>Plataformas web</p>
         <p className='title_pp_web'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi non, eum cupiditate repudiandae eligendi sint veniam amet unde</p>
         </div>
         </article>
         <article className='article_plataforms'>
         <i className='bx bx-check'></i>
         <div className='tt_webpl'>
-        <p className='title_pp_web1'>Guia de marca</p>
+        <p className='title_pp_web1'>Estrategia digital</p>
         <p className='title_pp_web'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi non, eum cupiditate repudiandae eligendi sint veniam amet unde</p>
         </div>
         </article>
         <article className='article_plataforms'>
         <i className='bx bx-check'></i>
         <div className='tt_webpl'>
-        <p className='title_pp_web1'>Guia de marca</p>
+        <p className='title_pp_web1'>Analisis e investigación</p>
         <p className='title_pp_web'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi non, eum cupiditate repudiandae eligendi sint veniam amet unde</p>
         </div>
         </article>

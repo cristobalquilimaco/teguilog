@@ -8,7 +8,7 @@ const Banner = () => {
         <section className='section_banner'>
             <article className='principal_description'>
             <h1 className='text_tittle'>Marketing Digital Estratégico para Tu Éxito en Línea</h1>
-            <h2 className='description_page'>Esta es la descripcion de la pagina</h2>
+            <h2 className='description_page'>Expertos en marketing digital, estrategias efectivas para tu éxito en línea. Maximiza tu presencia web con nosotros.</h2>
             <button className='btn btn_more'>Cónoce más</button>
             </article>
             <img className='img__banner' src={images.banner} alt="" />
