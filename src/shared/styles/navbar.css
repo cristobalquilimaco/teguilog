@@ -107,7 +107,7 @@ align-items: center;
 justify-content: center;
 transition: background-color 0.3s ease-in-out;
 overflow: hidden;
-font-size: 25px;
+font-size: 20px;
 }
 
 .list_menu:hover{
