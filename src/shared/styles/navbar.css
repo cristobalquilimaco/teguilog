@@ -76,7 +76,7 @@ color: var(--text-color-white);
   }
 
   .header_menu_principal.scrolled li{
-    color: var(--text-color-white);
+    color: var(--text-color);
   }
 
   .menu_icon{
