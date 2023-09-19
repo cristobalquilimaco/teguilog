@@ -1,0 +1,19 @@
+.img-modal{
+width: 380px;
+}
+
+.modal-descr{
+color: var(--text-color-white);
+font-size: 22px;
+}
+
+.btn-modal{
+background-color: var(--text-color-white);
+width: 100px;
+}
+
+.modal-content{
+display: flex;
+flex-wrap: wrap;
+gap: 1rem;
+}
