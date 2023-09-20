@@ -1,7 +1,6 @@
 .project-modal{
-    position: relative;
-    top: 0;
-    left: 0;
+position: fixed;
+top: 50%;
 }
 
 .img-modal{
