@@ -105,6 +105,8 @@ overflow: hidden;
 
   .logo{
 font-size: 25px;
+font-family: 'ADLaM Display', cursive;
+color: var(--color-logo)
   }
   .bx-menu {
     font-size: 30px;
