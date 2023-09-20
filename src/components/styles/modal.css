@@ -33,12 +33,19 @@ height: 30px;
 
 
 .modal-content{
-
-display: flex;
-flex-wrap: wrap;
-flex-direction: row;
-gap: 1rem;
+    display: flex;
+    flex-direction: column;
+align-items: center;
 justify-content: center;
+gap: 1rem;
+}
+
+.separatemodal{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+
 }
 
 .section_m_img{
