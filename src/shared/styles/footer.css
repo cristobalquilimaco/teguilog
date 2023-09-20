@@ -49,7 +49,7 @@ width: 270px;
 
 
 .button_suscrib{
-background-color: salmon; 
+background-color: var(--color-logo); 
 padding: 0.4rem 1.2rem 0.4rem 1.2rem;
 }
 
