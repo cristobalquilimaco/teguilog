@@ -3,6 +3,7 @@ import Navbar from './shared/Navbar'
 import { Route, Routes } from 'react-router-dom'
 import Home from './Pages/Home'
 import Footer from './shared/Footer'
+import WebDev from './Pages/WebDev'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
   <Navbar/>
   <Routes>
   <Route path="/" element={< Home />}/>
+  <Route path='/desarrolloweb' element={<WebDev />} />
   </Routes>
   <Footer/>
 </div>

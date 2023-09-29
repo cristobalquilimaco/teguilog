@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import "./styles/navbar.css"
+import { Link } from 'react-router-dom';
+
 
 const Navbar = () => {
   const [isMenuClick, setIsMenuClick] = useState(false);
@@ -45,7 +47,7 @@ const Navbar = () => {
             {isServiciosOpen ? 'Servicios ✕' : 'Servicios ▼'}
           </li>
           <ul className={`list_submenu ${isServiciosOpen ? 'open' : ''}`}>
-            <li className="list_menu1"><i className='bx bx-c bx-laptop'></i>Desarrollo web</li>
+            <Link to="/desarrolloweb"><li className="list_menu1"><i className='bx bx-c bx-laptop'></i>Desarrollo web</li></Link>
             <li className="list_menu1"><i className='bx bx-c bx-line-chart'></i>Marketing Digital</li>
             <li className="list_menu1"><i className='bx bx-c bx-search-alt-2' ></i>SEO y SEM</li>
           </ul>
