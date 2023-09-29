@@ -7,7 +7,7 @@ const WebDev = () => {
     <div>
         <section>
             <img src={images.bannerweb} alt="" />
-            <article>
+            <article className='section_dev'>
               <div>
                 <p>Diseño de Páginas Web Profesionales</p>
                 <p className='desc_serv_dev'>Lorem ipsum dolor sit, </p>
