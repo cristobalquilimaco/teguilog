@@ -6,7 +6,7 @@ const WebDev = () => {
   return (
     <div>
         <section>
-            <img className='img_circle' src={images.bannerweb} alt="" />
+            <img src={images.bannerweb} alt="" />
             <article>
               <div>
                 <p>Diseño de Páginas Web Profesionales</p>
@@ -20,7 +20,7 @@ const WebDev = () => {
                 <p className='desc_serv_dev'>Lorem ipsum dolor sit, </p>
                 </div>
               <div>
-                <img src={images.marketinggirl} alt="" />
+                <img className='img_circle' src={images.marketinggirl} alt="" />
               </div>
             </article>
         </section>

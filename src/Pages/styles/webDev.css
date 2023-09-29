@@ -1,3 +1,10 @@
 .desc_serv_dev{
 color: var(--text-color-white);
 }
+
+.img_circle{
+width: 100%;
+border-radius: 50%;
+border: 10px solid white;
+border-style:double;
+}
