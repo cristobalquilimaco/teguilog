@@ -21,7 +21,7 @@ const WebDev = () => {
                 </div>
               <div>
                 <img className='img_circle' src={images.marketinggirl} alt="" />
-                <section>
+                <section className='icons_web_services'>
                   <img className='web_logo_description' src={images.html} alt="" />
                   <img className='web_logo_description' src={images.css3} alt="" />
                   <img className='web_logo_description' src={images.js} alt="" />

@@ -5,25 +5,36 @@
 }
 
 .section_dev{
-display: flex;
-flex-wrap: wrap;
-align-items: center;
-justify-content: center;
-gap: 3rem;
-margin-top: 50px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 3rem;
 }
 
 .title_web_dev{
-color: var(--text-color-white);
-font-size: 22px;
+    font-size: 22px;
+    color: var(--text-color-white);
 }
 
 .desc_serv_dev{
-color: var(--text-color-white);
+    color: var(--text-color-white);
 }
 
 .img_circle{
-width: 300px;
-border-radius: 10% 80% 70% 20% / 70% 20% 70% 20%;
-border: 1px solid rgb(83, 30, 231);
+    border-radius: 10% 80% 70% 20% / 70% 20% 70% 20%;
+    width: 300px;
+    border: 1px solid rgb(83, 30, 231);
+}
+
+.icons_web_services{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.web_logo_description{
+    width: 70px;
+    max-width: 70px;
 }
