@@ -1,9 +1,21 @@
 
+.banner_web{
+    height: 250px;
+    opacity: 0.4;
+}
+
 .section_dev{
 display: flex;
 flex-wrap: wrap;
 align-items: center;
 justify-content: center;
+gap: 3rem;
+margin-top: 50px;
+}
+
+.title_web_dev{
+color: var(--text-color-white);
+font-size: 22px;
 }
 
 .desc_serv_dev{
@@ -11,8 +23,7 @@ color: var(--text-color-white);
 }
 
 .img_circle{
-width: 250px;
-border-radius: 100%;
-border: 10px solid white;
-border-style:double;
+width: 300px;
+border-radius: 10% 80% 70% 20% / 70% 20% 70% 20%;
+border: 1px solid rgb(83, 30, 231);
 }

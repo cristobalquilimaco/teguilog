@@ -6,10 +6,10 @@ const WebDev = () => {
   return (
     <div>
         <section>
-            <img src={images.bannerweb} alt="" />
+            <img className='banner_web' src={images.bannerweb} alt="" />
             <article className='section_dev'>
               <div>
-                <p>Diseño de Páginas Web Profesionales</p>
+                <p className='title_web_dev'>Desarrollo de Páginas Web <span>Profesionales</span></p>
                 <p className='desc_serv_dev'>Lorem ipsum dolor sit, </p>
                 <p className='desc_serv_dev'>Lorem ipsum dolor sit, </p>
                 <p className='desc_serv_dev'>Lorem ipsum dolor sit, </p>
@@ -21,6 +21,12 @@ const WebDev = () => {
                 </div>
               <div>
                 <img className='img_circle' src={images.marketinggirl} alt="" />
+                <section>
+                  <img className='web_logo_description' src={images.html} alt="" />
+                  <img className='web_logo_description' src={images.css3} alt="" />
+                  <img className='web_logo_description' src={images.js} alt="" />
+                  <img className='web_logo_description' src={images.wplogo} alt="" />
+                </section>
               </div>
             </article>
         </section>
