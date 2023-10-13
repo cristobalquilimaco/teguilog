@@ -7,6 +7,7 @@
 }
 
 .banner_web{
+    width: 100%;
     height: 250px;
     opacity: 0.4;
 }
@@ -94,4 +95,24 @@ gap: 0.5rem;
 
 .lg_1, .lg_2{
     width: 45px;
+}
+
+.imges_galery{
+display: flex;
+width: 1000px;
+height: 430px;
+}
+
+.imges_galery>.img_galery{
+width: 0px;
+flex-grow: 1;
+opacity: .8;
+transition: 1s ease;
+}
+
+.img_galery:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
 }

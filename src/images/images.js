@@ -28,8 +28,8 @@ export default {
     "wplogo": wplogo,
     "check": check,
     "web1":web1,
-    "web1":web2,
-    "web1":web3,
-    "web1":web4,
-    "web1":web5,
+    "web2":web2,
+    "web3":web3,
+    "web4":web4,
+    "web5":web5,
 }

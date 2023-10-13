@@ -4,7 +4,7 @@ import "./styles/webDev.css"
 
 const WebDev = () => {
   return (
-    <div>
+    <div className='webdev_container_principal'>
         <section className='web__dev_container'>
             <img className='banner_web' src={images.bannerweb} alt="" />
             <article className='section_dev'>
@@ -30,8 +30,15 @@ const WebDev = () => {
                 </section>
               </div>
             </article>
+            <section className='imges_galery'>
+          <img className='img_galery' src={images.web1} alt="" />
+          <img className='img_galery' src={images.web2} alt="" />
+          <img className='img_galery' src={images.web3} alt="" />
+          <img className='img_galery' src={images.web4} alt="" />
+          <img className='img_galery' src={images.web5} alt="" />
         </section>
-        
+        </section>
+
     </div>
   )
 }
