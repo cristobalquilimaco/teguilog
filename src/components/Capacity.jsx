@@ -1,91 +1,36 @@
 import React from 'react'
 import "./styles/capacity.css"
-import images from "../images/images"
+import servicesData from '../utils/servicedata'
 
 const Capacity = () => {
+
+console.log(servicesData[0].imagen)
+
   return (
     <div className='principal_capacity'>
       <div className='section_pp_cap'>
       <h3>
-        Capacity
+        Marketing
       </h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos atque, corrupti maiores perferendis magnam impedit dicta assumend.</p>
+      <p>Contratar cualquiera de estos servicios de marketing puede ayudarte a aumentar la visibilidad de tu marca, atraer a una audiencia comprometida, mejorar la eficacia de tus campañas y, en última instancia, impulsar el crecimiento de tu negocio.</p>
       </div>
 <article className='capacity_services'>
 <section className='section_capacity'>
-      <img className='img_capacity' src={images.branding} alt="" />
-      <p className='descr_title'>Titulo del servicio</p>
-      <div className='check_item'>
-      <i className='bx bx-check-square'></i>
-      <p className='des_service'>Descripcion del servicio</p>
-      </div>
-      <div className='check_item'>
-      <i className='bx bx-check-square'></i>
-      <p className='des_service'>Descripcion del servicio</p>
-      </div>
-      <div className='check_item'>
-      <i className='bx bx-check-square'></i>
-      <p className='des_service'>Descripcion del servicio</p>
-      </div>
-      <div className='check_item'>
-      <i className='bx bx-check-square'></i>
-      <p className='des_service'>Descripcion del servicio</p>
-      </div>
-      <div className='check_item'>
-      <i className='bx bx-check-square'></i>
-      <p className='des_service'>Descripcion del servicio</p>
-      </div>
-
-    </section>
-    <section className='section_capacity'>
-      <img className='img_capacity' src={images.branding} alt="" />
-      <p className='descr_title'>Titulo del servicio</p>
-      <div className='check_item'>
-      <i className='bx bx-check-square'></i>
-      <p className='des_service'>Descripcion del servicio</p>
-      </div>
-      <div className='check_item'>
-      <i className='bx bx-check-square'></i>
-      <p className='des_service'>Descripcion del servicio</p>
-      </div>
-      <div className='check_item'>
-      <i className='bx bx-check-square'></i>
-      <p className='des_service'>Descripcion del servicio</p>
-      </div>
-      <div className='check_item'>
-      <i className='bx bx-check-square'></i>
-      <p className='des_service'>Descripcion del servicio</p>
-      </div>
-      <div className='check_item'>
-      <i className='bx bx-check-square'></i>
-      <p className='des_service'>Descripcion del servicio</p>
-      </div>
-
-    </section>
-    <section className='section_capacity'>
-      <img className='img_capacity' src={images.branding} alt="" />
-      <p className='descr_title'>Titulo del servicio</p>
-      <div className='check_item'>
-      <i className='bx bx-check-square'></i>
-      <p className='des_service'>Descripcion del servicio</p>
-      </div>
-      <div className='check_item'>
-      <i className='bx bx-check-square'></i>
-      <p className='des_service'>Descripcion del servicio</p>
-      </div>
-      <div className='check_item'>
-      <i className='bx bx-check-square'></i>
-      <p className='des_service'>Descripcion del servicio</p>
-      </div>
-      <div className='check_item'>
-      <i className='bx bx-check-square'></i>
-      <p className='des_service'>Descripcion del servicio</p>
-      </div>
-      <div className='check_item'>
-      <i className='bx bx-check-square'></i>
-      <p className='des_service'>Descripcion del servicio</p>
-      </div>
-
+{servicesData.map((service) => (
+        <div key={service.id} className='section__serv_img'>
+          <img
+            className="img_capacity"
+            src={service.imagen}
+            alt=""
+          />
+          <p className='descr_title'>{service.title}</p>
+          <ul>
+            {service.descriptions.map((description, index) => (
+              <li key={index}>{description}</li>
+            ))}
+          </ul>
+        </div>
+      ))}
     </section>
 </article>
 

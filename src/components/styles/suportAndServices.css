@@ -4,19 +4,22 @@ flex-wrap: wrap;
 align-items: center;
 justify-content: center;
 width: 100%;
-gap: 1.5rem;
 margin-top: 3rem;
+gap: 2rem;
 }
 
 .section_support{
 color: var(--text-color-white);
-display: flex;
-flex-direction: column;
 font-size: 22px;
+width: 250px;
 }
 
 .title_text{
 color: var(--navbar-color);
+}
+
+.img_google{
+   width: 150px;
 }
 
 @media screen and (min-width: 768px){
@@ -24,6 +27,10 @@ color: var(--navbar-color);
 .principal_support{
 
 gap: 5rem;
+}
+
+.img_google{
+   width: 150px;
 }
 
 }

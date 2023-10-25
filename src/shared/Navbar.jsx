@@ -4,9 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
-  const [isMenuClick, setIsMenuClick] = useState(false);
   const [hasScrolled, setHasScrolled] = useState(false);
-  const [isServiciosOpen, setIsServiciosOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -24,38 +22,43 @@ const Navbar = () => {
     };
   }, []);
 
-  const updateMenu = () => {
-    setIsMenuClick(!isMenuClick);
-  };
-
-  const toggleServicios = () => {
-    setIsServiciosOpen(!isServiciosOpen);
-  };
-
   return (
     <header className={`header_menu_principal ${hasScrolled ? 'scrolled' : ''}`}>
-      <div className="menu_icon">
-        <h1 className="logo">Teguilog</h1>
-        
-        <i className={`bx ${isMenuClick ? 'bx-x' : 'bx-menu'} ${window.innerWidth < 768 ? 'show-bx' : ''}`} onClick={updateMenu}></i>
-      </div>
-     
-      <nav className={`dropdown_menu ${window.innerWidth >= 768 || isMenuClick ? 'show-menu' : ''}`}>
-        <ul className={`list_menu_principal ${isMenuClick ? 'hide-menu' : 'show-menu'}`}>
-          <li className="list_menu">Inicio</li>
-          <li className={`list_menu ${isServiciosOpen ? 'servicios-open' : ''}`} onClick={toggleServicios}>
-            {isServiciosOpen ? 'Servicios ✕' : 'Servicios ▼'}
-          </li>
-          <ul className={`list_submenu ${isServiciosOpen ? 'open' : ''}`}>
-            <Link to="/desarrolloweb"><li className="list_menu1"><i className='bx bx-c bx-laptop'></i>Desarrollo web</li></Link>
-            <li className="list_menu1"><i className='bx bx-c bx-line-chart'></i>Marketing Digital</li>
-            <li className="list_menu1"><i className='bx bx-c bx-search-alt-2' ></i>SEO y SEM</li>
+<nav className="navbar navbar-expand-lg bg-body-tertiary">
+  <div className="container-fluid">
+  <Link to="/">TEGUILOG</Link>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul className="navbar-nav">
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#">Nosotros</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#">Contactos</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#">Blog</a>
+        </li>
+        <li className="nav-item dropdown">
+          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Servicios
+          </a>
+          <ul className="dropdown-menu">
+            <Link to="/desarrolloweb"><li className="dropdown-item">Desarrollo web</li></Link>
+            <li><a className="dropdown-item" href="#">Marketing digital</a></li>
+            <li><a className="dropdown-item" href="#">SEO Y SEM</a></li>
           </ul>
-          <li className="list_menu">Acerca de</li>
-          <li className="list_menu">Contactame</li>
-          <li className="list_menu">Blog</li>
-        </ul>
-      </nav>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
     </header>
   );
 }

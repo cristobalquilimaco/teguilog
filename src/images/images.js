@@ -13,6 +13,13 @@ import web2 from "/public/img/web2.jpg"
 import web3 from "/public/img/web3.jpg"
 import web4 from "/public/img/web4.jpg"
 import web5 from "/public/img/web5.jpg"
+import emailmarketing from "/public/img/emailmarketing.jpg"
+import publicidaddigital from "/public/img/publicidaddigital.jpg"
+import marketingdigital from "/public/img/marketingdigital.jpg"
+import ads from "/public/img/ads.png"
+import analytics from "/public/img/analytics.png"
+import keywordplanner from "/public/img/keyword.png"
+import searchconsole from "/public/img/searchconsole.png"
 
 
 
@@ -32,4 +39,11 @@ export default {
     "web3":web3,
     "web4":web4,
     "web5":web5,
+    "emailmarketing": emailmarketing,
+    "publicidaddigital": publicidaddigital,
+    "marketingdigital": marketingdigital,
+    "ads": ads,
+    "analytics": analytics,
+    "keywordplanner": keywordplanner,
+    "searchconsole": searchconsole,
 }

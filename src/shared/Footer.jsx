@@ -7,9 +7,7 @@ const Footer = () => {
       <section className='contact_footer'>
         <div className='text_info_footer'>
           <p className='contact_inf'>Contactos</p>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde et similique vel officia est 
-            
-            deserunt id eveniet ipsa fugiat! Illum facere minima culpa maiores recusandae fugit vel expedita saepe. Autem.</p>
+          <p>¡No pierdas las últimas actualizaciones y consejos exclusivos! ¡Suscríbete a nuestro boletín hoy y mantente al tanto de todo lo que tenemos para ofrecer!</p>
         </div>
         <div className='infor_btn_input'>
           <p>¿Quieres recibir noticias y nuevas promociones?</p>

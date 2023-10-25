@@ -70,6 +70,7 @@ a {
 /* ... excepto los que se encuentran en párrafos */
 p a {
   display: inline;
+  margin: 0;
 }
 
 /* Quitamos los puntos de los <li> */

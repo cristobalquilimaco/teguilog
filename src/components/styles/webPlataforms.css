@@ -4,6 +4,11 @@ background-color: var(--background-color);
 padding: 2rem;
 }
 
+.article_plataforms{
+ width: 200px;
+ height: 200px;
+}
+
 .header_web_plataforms{
 display: flex;
 flex-direction: column;

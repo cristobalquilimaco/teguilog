@@ -1,301 +1,78 @@
-:root{
-  --text-color-rgb: 0, 0, 0;
+.navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
 
-.bx {
-  font-size: 2rem;
-  cursor: pointer;
-  color: var(--text-color-white);
-}
-
-.bx-c{
+.navbar-brand1{
   font-size: 22px;
-  margin: 0.5rem;
-  color: red;
-
+  font-family: 'ADLaM Display';
+  color: brown;
 }
 
-.dropdown_menu {
-  position: fixed;
+.container-fluid{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 0;
-  background-color: var(--buttoncolor);
-  overflow: hidden;
-  top: 60px;
-  opacity: 0;
-  transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  justify-content: space-evenly;
 }
 
-.dropdown_menu.show-menu {
-  height: 60vh;
-  opacity: 1;
+.navbar-toggler{
+  margin: 0.4rem;
 }
 
-.list_menu_principal{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.list_menu_principal li{
-margin: 1rem;
-}
-
-.show-menu {
-  height: 60vh;
-  opacity: 1;
-  display: flex;
-}
-  
-header{
-  position: fixed;
-  width: 100%;
+.navbar-toggler-icon{
+  width: 15px;
+  height: 20px;
 }
 
 
-  .header_menu_principal{
+@media (min-width: 768px){
+
+  .navbar{
+    position: fixed;
     width: 100%;
-    height: 60px;
-   background-color: transparent;
-    display: flex ;
-    flex-direction: column;
-    justify-content: center;
-    color: var(--text-color-white) ;
-    overflow: hidden;
-    transition: box-shadow 0.5s ease-in-out,  background-color 0.5s ease-in-out;
     z-index: 9999;
-  }
-
-  .header_menu_principal li{
-color: var(--text-color);
-  }
-
-  .header_menu_principal .bx{
-    color: var(--text-color-white);
-      }
-
-.header_menu_principal.scrolled .bx{
-color: var(--text-color-white);
-}
-
-  .header_menu_principal.scrolled{
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: var(--text-color);
-    color: var(--text-color-white);
-  }
-
-  .header_menu_principal.scrolled li{
-    color: var(--text-color);
-  }
-
-  .menu_icon{
-display: flex;
-justify-content: space-between;
-align-items: center;
-margin-left: 1rem;
-margin-right: 1rem;
-overflow: hidden;
-
-  }
-
-  .logo{
-font-size: 25px;
-font-family: 'ADLaM Display', cursive;
-color: var(--color-logo)
-  }
-  .bx-menu {
-    font-size: 30px;
-    cursor: pointer;
-    color: var(--text-color-white);
-  }
-.list_menu{
-  width: auto;
-  height: auto;
-color: var(--text-color);
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-transition: background-color 0.3s ease-in-out;
-overflow: hidden;
-font-size: 20px;
-}
-
-.list_menu:hover{
-  cursor: pointer;
-  width: 550px;
-  background-color: var(--text-color-white);
-  background-image: linear-gradient(to bottom, transparent, rgba(var(--text-color-rgb), 0.1));
-  height: 50px;
-}
-
-.list_submenu{
-  max-height: 0px;
-  overflow: hidden;
-  transition: max-height 0.3s ease;
-}
-.list_submenu.open {
-  max-height: 180px; 
-  display: flex;
-  flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.075);
-  color: var(--text-color-white);
-  width: 400px;
-}
-
-.list_menu1{
-  width: 200px;
-  height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  }
-
-
-/* ---------------MEDIA QUERTY--------------- */
-
-@media (min-width: 768px) {
-  .header_menu_principal {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .show-menu{
-    display: block;
-  }
-
-  .menu_icon .bx-x {
-    display: none;
-  }
-  .menu_icon .bx-menu {
-    display: none;
-  }
-
-  .header_menu_principal li{
-    color: var(--text-color-white);
-  
-      }
-
-  .hide-menu {
-   display: none;
-   
-  }
-
-  .menu_icon {
-    display: flex;
-    align-items: center;
-  }
-
-  .logo {
-    margin-right: 20px; 
-  }
-
-  .dropdown_menu.show-menu {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    background-color: transparent;
-    overflow: hidden;
-    top: auto;
-    opacity: 1;
-    transform: none;
-    transition: none;
-    
-  }
- 
-
-  .list_menu_principal {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-  }
-
-  .list_menu_principal li{
-    margin: 0rem;
-    }
-
-  .list_menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 150px;
-  }
-
-  .list_menu:hover{
-    cursor: pointer;
-    width: 150px;
-    height: auto;
-    background-color: var(--transparent-color);
-    background-image: linear-gradient(to bottom, transparent, transparent 40%, var(--purple-color));
     height: 60px;
   }
 
-  .list_submenu{
-position: absolute;
-top: 54.8%;
-left: 37.5%;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-gap: 1.5rem;
-width: 240px;
-height: 180px;
-max-height: 0px;
-  overflow: hidden;
-  transition: max-height 0.3s ease;
-}
+  .container-fluid, .collapse, .navbar-nav{
+    display: flex;
+    justify-content: end;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
 
+  .navbar-brand1{
+    font-size: 1.8rem;
+  }
 
-.list_submenu.open {
-  max-height: 180px; 
-  width: 240px;
- background-color: var(--text-color-transparent);
+  .navbar-nav{
+    font-size: 1.2rem;
+    display: flex;
+    gap: 2rem;
+  }
 
-}
-
-.bx-c{
-  font-size: 22px;
-  margin: 0.5rem;
-
-}
-
-.list_menu1{
-width: 240px;
-height: 30px;
-display: flex;
-align-items: center;
-justify-content: flex-start;
-}
-
-.list_menu1:hover{
-  cursor: pointer;
-  background-image: linear-gradient(to bottom, transparent, transparent 5%, var(--purple-color));
-    height: 30px;
-
-}
-
-
-
-
-
-  .header_menu_principal.scrolled li{
-    color: var(--text-color-white);
+  .nav-link {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
   }
   
+  .nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: transparent; 
+    box-shadow: 0 0 5px purple; 
+    transition: width 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease; 
+  }
+  
+  .nav-link:hover::before {
+    width: 100%;
+    background-color: purple; 
+    box-shadow: 0 0 50px purple; 
+  }
+
 }
-
-
-
-

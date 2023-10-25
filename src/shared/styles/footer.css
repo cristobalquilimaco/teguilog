@@ -76,6 +76,11 @@ color: white;
 margin-top: 2rem;
 }
 
+.bxl-facebook-square, .bxl-instagram-alt, .bxl-twitter{
+    color: var(--text-color-white);
+    font-size: 30px;
+}
+
 @media screen and (min-width: 768px){
 
     .contact_footer{
