@@ -20,7 +20,7 @@ const Proyects = () => {
       <ul className='list_proyects'>
         {projectsData.map((proyecto) => (
           <li className='pp_tt' key={proyecto.id}>
-            <div>
+            <div className='projects_section1'>
               <img
                 className='imgproject'
                 src={proyecto?.imagen}
